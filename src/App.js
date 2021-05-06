@@ -89,7 +89,7 @@ export default function App() {
 
   return (
     <div className="App" style={appStyle}>
-      <h1>Food & Drink Emoji Interpretor</h1>
+      <h1>What does the emoji mean?</h1>
       {selectedIdx === -1 ? (
         <h2 style={outputStyle}>No Emoji Selected</h2>
       ) : (
