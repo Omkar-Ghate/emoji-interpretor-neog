@@ -16,3 +16,28 @@ body {
 input:focus {
   outline: none;
 }
+
+footer {
+  bottom: 10px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  width: 100%;
+  color: var(--text-blue);
+}
+footer div {
+  padding: 0.4rem;
+  color: skyblue;
+}
+
+.heading-footer {
+  padding-bottom: 1rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+a {
+  color: cyan;
+  padding: 1.5rem;
+  text-decoration: none;
+}

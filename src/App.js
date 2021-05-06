@@ -122,6 +122,20 @@ export default function App() {
           </p>
         );
       })}
+      <footer>
+        <div class="heading-footer">Get in touch with me</div>
+
+        <div>
+          <a href="https://github.com/Omkar-Ghate" target="blank">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/omkarghate/" target="blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
