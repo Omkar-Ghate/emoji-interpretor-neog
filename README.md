@@ -5,14 +5,14 @@
 
 ## Know what your Emoji means using this fun app.
 
-## This project is under the Level Zero course of [NeogCamp](https://handbook.neog.camp/)
-
 ## Technology Stack Used
 
 ![HTML](https://img.shields.io/badge/frontend-html-orange.svg?logo=html5&style=flat-square)
 ![CSS](https://img.shields.io/badge/frontend-css-yellowgreen.svg?logo=css3&style=flat-square)
 ![JavaScript](https://img.shields.io/badge/frontend-javascript-blue.svg?logo=javascript&style=flat-square)
 ![React](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat)
+
+### This project is under the Level Zero course of [NeogCamp](https://handbook.neog.camp/)
 
 ### Still need help?
 
