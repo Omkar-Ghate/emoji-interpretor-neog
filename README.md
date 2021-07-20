@@ -12,8 +12,6 @@
 ![JavaScript](https://img.shields.io/badge/frontend-javascript-blue.svg?logo=javascript&style=flat-square)
 ![React](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat)
 
-### This project is under the Level Zero course of [NeogCamp](https://handbook.neog.camp/)
-
 ### Still need help?
 
 ```
