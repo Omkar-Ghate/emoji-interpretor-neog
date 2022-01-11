@@ -27,6 +27,7 @@ footer {
 footer div {
   padding: 0.4rem;
   color: skyblue;
+  margin: 0.4rem;
 }
 
 .heading-footer {
@@ -38,6 +39,6 @@ footer div {
 }
 a {
   color: cyan;
-  padding: 1.5rem;
+  padding: 0.5rem;
   text-decoration: none;
 }
