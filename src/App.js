@@ -64,15 +64,22 @@ export default function App() {
   const [selectedIdx, setSelectedIdx] = useState(-1);
   const [error, setError] = useState(false);
 
-  function clickHandler(emoji, idx) {
+  const clickHandler = (emoji, idx) => {
     setSelectedIdx(idx);
     setSelectedEmoji(emoji);
     setMeaning(emojiDictionary[emoji]);
     setError(false);
   }
 
-  function inputHandler(event) {
-    var inputEmoji = event.target.value;
+  // function clickHandler(emoji, idx) {
+  //   setSelectedIdx(idx);
+  //   setSelectedEmoji(emoji);
+  //   setMeaning(emojiDictionary[emoji]);
+  //   setError(false);
+  // }
+
+  const inputHandler = (event) => {
+    let inputEmoji = event.target.value;
     if (inputEmoji === "") {
       setError(false);
       setSelectedIdx(-1);
@@ -86,6 +93,22 @@ export default function App() {
       setSelectedIdx(-1);
     }
   }
+
+  // function inputHandler(event) {
+  //   var inputEmoji = event.target.value;
+  //   if (inputEmoji === "") {
+  //     setError(false);
+  //     setSelectedIdx(-1);
+  //   } else if (emojis.includes(inputEmoji)) {
+  //     setSelectedIdx(emojis.indexOf(inputEmoji));
+  //     setSelectedEmoji(inputEmoji);
+  //     setMeaning(emojiDictionary[inputEmoji]);
+  //     setError(false);
+  //   } else {
+  //     setError(true);
+  //     setSelectedIdx(-1);
+  //   }
+  // }
 
   return (
     <div className="App" style={appStyle}>
@@ -140,8 +163,3 @@ export default function App() {
   );
 }
 
-/**
- * things to notice
- * class --> className
- * style --> takes an object instead of ""
- */
